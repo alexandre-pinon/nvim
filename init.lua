@@ -584,6 +584,7 @@ require('lazy').setup({
         tsserver = {},
         tailwindcss = {},
         emmet_language_server = {},
+        graphql = {},
         lua_ls = {
           -- cmd = {...},
           -- filetypes = { ...},
@@ -663,6 +664,7 @@ require('lazy').setup({
         typescript = { 'biome-check' },
         typescriptreact = { 'biome-check' },
         json = { 'biome-check' },
+        graphql = { 'biome-check' },
         -- Conform can also run multiple formatters sequentially
         -- python = { "isort", "black" },
         --

@@ -10,6 +10,7 @@ return {
         javascript = { 'biomejs' },
         typescript = { 'biomejs' },
         typescriptreact = { 'biomejs' },
+        graphql = { 'biomejs' },
       }
 
       -- To allow other plugins to add linters to require('lint').linters_by_ft,
