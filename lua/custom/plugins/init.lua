@@ -14,4 +14,20 @@ return {
       vim.keymap.set('n', '<C-l>', smart_splits.move_cursor_right)
     end,
   },
+  {
+    'luckasRanarison/tailwind-tools.nvim',
+    dependencies = { 'nvim-treesitter/nvim-treesitter' },
+    opts = {}, -- your configuration
+  },
+  {
+    'JoosepAlviste/nvim-ts-context-commentstring',
+    dependencies = {
+      'numToStr/Comment.nvim',
+      opts = {
+        pre_hook = function()
+          return vim.bo.commentstring
+        end,
+      },
+    },
+  },
 }
